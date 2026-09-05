@@ -102,3 +102,56 @@ body {
 .btn-launch:active {
     transform: translateY(0);
 }
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .container {
+        padding: 40px 20px;
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 32px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .emoji {
+        font-size: 80px;
+        margin-bottom: 30px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 15px;
+        width: 95%;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .emoji {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+}
